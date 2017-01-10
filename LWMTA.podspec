@@ -20,8 +20,15 @@ Pod::Spec.new do |s|
   # s.preserve_paths = "MTA/doc", "MTA/ReleaseNotes.txt"
   
   s.frameworks = [
+  'Foundation',
+  'SystemConfiguration',
+  'CoreTelephony',
+  'CFNetwork'
   ]
   s.libraries = [
+  'z',
+  'c++',
+  'sqlite3',
   ]
 
 end

@@ -13,6 +13,7 @@
 		366ABF1E1E24B72100E9F5DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366ABF1C1E24B72100E9F5DB /* Main.storyboard */; };
 		366ABF201E24B72100E9F5DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366ABF1F1E24B72100E9F5DB /* Assets.xcassets */; };
 		366ABF231E24B72100E9F5DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366ABF211E24B72100E9F5DB /* LaunchScreen.storyboard */; };
+		EAEAC2DD4D7B14E560ECB9B0 /* libPods-LWMTA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0687D57F83104F3E4C90DE /* libPods-LWMTA.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		366ABF1F1E24B72100E9F5DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366ABF221E24B72100E9F5DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366ABF241E24B72100E9F5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962104F88B0D70C09313C505 /* Pods-LWMTA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWMTA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWMTA/Pods-LWMTA.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E59A99FBDF556068782A0E /* Pods-LWMTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWMTA.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWMTA/Pods-LWMTA.release.xcconfig"; sourceTree = "<group>"; };
+		FB0687D57F83104F3E4C90DE /* libPods-LWMTA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LWMTA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAEAC2DD4D7B14E560ECB9B0 /* libPods-LWMTA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				366ABF121E24B72100E9F5DB /* LWMTA */,
 				366ABF111E24B72100E9F5DB /* Products */,
+				47ED535BCF4727D2E9472067 /* Pods */,
+				6AEE696F738B389E4BBDBB31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		47ED535BCF4727D2E9472067 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				962104F88B0D70C09313C505 /* Pods-LWMTA.debug.xcconfig */,
+				C1E59A99FBDF556068782A0E /* Pods-LWMTA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6AEE696F738B389E4BBDBB31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB0687D57F83104F3E4C90DE /* libPods-LWMTA.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 366ABF271E24B72100E9F5DB /* Build configuration list for PBXNativeTarget "LWMTA" */;
 			buildPhases = (
+				F97B003ED97B34FDDB375E15 /* [CP] Check Pods Manifest.lock */,
 				366ABF0C1E24B72100E9F5DB /* Sources */,
 				366ABF0D1E24B72100E9F5DB /* Frameworks */,
 				366ABF0E1E24B72100E9F5DB /* Resources */,
+				8C7D6FCADFBC12A4F2763AF5 /* [CP] Embed Pods Frameworks */,
+				EC93EE5B59754C32A52B0475 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C7D6FCADFBC12A4F2763AF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWMTA/Pods-LWMTA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC93EE5B59754C32A52B0475 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWMTA/Pods-LWMTA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97B003ED97B34FDDB375E15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		366ABF0C1E24B72100E9F5DB /* Sources */ = {
@@ -268,6 +343,7 @@
 		};
 		366ABF281E24B72100E9F5DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962104F88B0D70C09313C505 /* Pods-LWMTA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LWMTA/Info.plist;
@@ -279,6 +355,7 @@
 		};
 		366ABF291E24B72100E9F5DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E59A99FBDF556068782A0E /* Pods-LWMTA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LWMTA/Info.plist;
