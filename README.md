@@ -10,3 +10,6 @@ Add the following line to your Podfile to get latest MTA
 ```
 pod 'LWMTA'
 ```
+
+
+> Current Version 1.6.5
