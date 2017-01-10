@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
   Updated MTA for CocoaPods
                    DESC
-  s.homepage     = "http://http://mta.qq.com/"
+  s.homepage     = "http://mta.qq.com/"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author    = "allensun"
   

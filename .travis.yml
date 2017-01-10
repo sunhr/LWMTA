@@ -1,0 +1,21 @@
+language: objective-c
+osx_image: xcode8
+
+before_install:
+    - env
+    - locale
+    - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+    - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+    - pod --version
+    - xcpretty --version
+    - xcodebuild -version
+    - xcodebuild -showsdks
+
+script:
+    - cd Test
+    - pod install
+    - xcodebuild clean build -workspace LWMTA.xcworkspace -scheme 'LWMTA' -configuration Debug -sdk iphonesimulator | xcpretty -c
+    - cd ..
+
+after_success:
+    - echo Success
