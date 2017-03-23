@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '7.0'
   
-  s.source       = { :git => 'https://github.com/sunhr/LWMTA.git', :tag => '1.6.9' }
+  s.source       = { :git => 'https://github.com/sunhr/LWMTA.git', :tag => "#{s.version}" }
   s.source_files = "MTA/MTA.h", "MTA/MTAConfig.h"
   # s.exclude_files = "Test/"
   s.vendored_libraries = "MTA/libmtasdk.a"
