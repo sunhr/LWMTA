@@ -1,5 +1,5 @@
 PODS:
-  - LWMTA (2.0.0)
+  - LWMTA (2.0.1)
 
 DEPENDENCIES:
   - LWMTA (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LWMTA: d45d3787a5bc81ddefba1a3bc86410ceea07a269
+  LWMTA: c5cd3de54976050a5d708e552fb3e5ae21ec5b6d
 
 PODFILE CHECKSUM: 97160cad289fec0eb23e75f24e650190f9f8cd64
 
