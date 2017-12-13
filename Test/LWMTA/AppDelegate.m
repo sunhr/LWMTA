@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <LWMTA/MTA.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [MTA startWithAppkey:@"123"];
+    
     return YES;
 }
 
