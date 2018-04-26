@@ -114,8 +114,6 @@
 				366ABF0C1E24B72100E9F5DB /* Sources */,
 				366ABF0D1E24B72100E9F5DB /* Frameworks */,
 				366ABF0E1E24B72100E9F5DB /* Resources */,
-				8C7D6FCADFBC12A4F2763AF5 /* [CP] Embed Pods Frameworks */,
-				EC93EE5B59754C32A52B0475 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,36 +171,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8C7D6FCADFBC12A4F2763AF5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWMTA/Pods-LWMTA-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC93EE5B59754C32A52B0475 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWMTA/Pods-LWMTA-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		F97B003ED97B34FDDB375E15 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
