@@ -7,43 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38A3153DC98C9CCEC5123759E69F0583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B9812B5D6CA5FF95137D1864C21DBAB8 /* Pods-LWMTA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF642DD7D6B0CE5E1276BCE2BF1FE83 /* Pods-LWMTA-dummy.m */; };
+		7F69B662408480676E2BAA746B89F374 /* Pods-LWMTA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF642DD7D6B0CE5E1276BCE2BF1FE83 /* Pods-LWMTA-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0F120DA73A0F9A46AAA0948CEB3DEFA7 /* Pods-LWMTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWMTA.release.xcconfig"; sourceTree = "<group>"; };
 		0F27A0D1AEF19A2D7C7B4D230680505F /* libPods-LWMTA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LWMTA.a"; path = "libPods-LWMTA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C5B613F7727E7E5D92A3AB621658967 /* MTA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTA.h; path = MTA/MTA.h; sourceTree = "<group>"; };
-		26518AEDD9F719D99F7C8CC12C787897 /* libmtasdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmtasdk.a; path = MTA/libmtasdk.a; sourceTree = "<group>"; };
-		2D4A67EA207070E9F554FA2DECAE4F56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		339343E4D651B1705CD1A24AD0B3B006 /* MTACrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTACrashReporter.h; path = MTA/MTACrashReporter.h; sourceTree = "<group>"; };
-		36498E1D9737E6A031C51F0F8FD037D3 /* MTAConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTAConfig.h; path = MTA/MTAConfig.h; sourceTree = "<group>"; };
+		29BF6E795F8CE43153BC485B548AE2BE /* libmtasdk.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libmtasdk.a; path = MTA/libmtasdk.a; sourceTree = "<group>"; };
+		36FA65CA82246D5069F147DF6CA0286E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		380142AEC31CBAB5B2199382DDBEE7FB /* Pods-LWMTA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LWMTA-frameworks.sh"; sourceTree = "<group>"; };
 		4906DCAFDEDAB1517CC19B5D70781950 /* Pods-LWMTA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWMTA-acknowledgements.markdown"; sourceTree = "<group>"; };
 		49B5E81A706EB4A62355AAA27CA47445 /* Pods-LWMTA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWMTA.debug.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		793ADD6E8E0AD972EBE30E04C7D23FA6 /* LWMTA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LWMTA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7CDBDB4D0984A8B6850421417434CF54 /* MTA+Account.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTA+Account.h"; path = "MTA/MTA+Account.h"; sourceTree = "<group>"; };
+		5495C0CC61A456F52A7B60CA0A3E55A7 /* MTA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTA.h; path = MTA/MTA.h; sourceTree = "<group>"; };
+		913E424AA6013AFB2FB5E3FAEA6BE7DA /* LWMTA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LWMTA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CC88A65786DDE0949941AC373E98E83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A3750F230B88977AFBBE37103A5795C3 /* Pods-LWMTA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWMTA-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD85324408FA18D6E92240E931A3B043 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BBF7847C22EC66B4B03122C377850642 /* Pods-LWMTA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LWMTA-resources.sh"; sourceTree = "<group>"; };
 		CAF642DD7D6B0CE5E1276BCE2BF1FE83 /* Pods-LWMTA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWMTA-dummy.m"; sourceTree = "<group>"; };
+		F05AEB722BBCCB02D27DED39A2AE67A3 /* MTAConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTAConfig.h; path = MTA/MTAConfig.h; sourceTree = "<group>"; };
+		F52A0B9410153E2BB5177624CF61F526 /* MTA+Account.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTA+Account.h"; path = "MTA/MTA+Account.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E9B9C9F9AF4EC4CA8DF139FEB9D2E544 /* Frameworks */ = {
+		1235E61CCD4BA40E2114DC3D475B0015 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A3153DC98C9CCEC5123759E69F0583 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D451AD038C0164DBDB3ED1CC2861A12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29BF6E795F8CE43153BC485B548AE2BE /* libmtasdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		21D74667F3F194ACF3EE519FC1465D02 /* Pods-LWMTA */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,71 +70,33 @@
 			path = "Target Support Files/Pods-LWMTA";
 			sourceTree = "<group>";
 		};
-		549E1F8EE472DB5629B6B6D8109DB034 /* Development Pods */ = {
+		33764ECCA27ADE3DC8C4303A0B8C7EC8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B33882CB2C823DBF8E213181DE6BF930 /* LWMTA */,
+				9CC88A65786DDE0949941AC373E98E83 /* LICENSE */,
+				913E424AA6013AFB2FB5E3FAEA6BE7DA /* LWMTA.podspec */,
+				36FA65CA82246D5069F147DF6CA0286E /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				549E1F8EE472DB5629B6B6D8109DB034 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E42BB025DEE43D556D5536A079C4E6FA /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				FF43ED9462A787DB3C26942765A5D1DB /* Products */,
 				E730D24408936D56373DB31F7DBEDEBB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A7381E36FA814E5B5AA18AAD082BDB4A /* Pod */ = {
+		E42BB025DEE43D556D5536A079C4E6FA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2D4A67EA207070E9F554FA2DECAE4F56 /* LICENSE */,
-				793ADD6E8E0AD972EBE30E04C7D23FA6 /* LWMTA.podspec */,
-				AD85324408FA18D6E92240E931A3B043 /* README.md */,
+				EF30AE9832EB333728F5F166A91A910A /* LWMTA */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		B33882CB2C823DBF8E213181DE6BF930 /* LWMTA */ = {
-			isa = PBXGroup;
-			children = (
-				1C5B613F7727E7E5D92A3AB621658967 /* MTA.h */,
-				7CDBDB4D0984A8B6850421417434CF54 /* MTA+Account.h */,
-				36498E1D9737E6A031C51F0F8FD037D3 /* MTAConfig.h */,
-				339343E4D651B1705CD1A24AD0B3B006 /* MTACrashReporter.h */,
-				DCA96D9016DF5DC774C99D1983B52AE2 /* Frameworks */,
-				A7381E36FA814E5B5AA18AAD082BDB4A /* Pod */,
-			);
-			name = LWMTA;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DCA96D9016DF5DC774C99D1983B52AE2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				26518AEDD9F719D99F7C8CC12C787897 /* libmtasdk.a */,
-			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E730D24408936D56373DB31F7DBEDEBB /* Targets Support Files */ = {
@@ -132,6 +105,19 @@
 				21D74667F3F194ACF3EE519FC1465D02 /* Pods-LWMTA */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF30AE9832EB333728F5F166A91A910A /* LWMTA */ = {
+			isa = PBXGroup;
+			children = (
+				5495C0CC61A456F52A7B60CA0A3E55A7 /* MTA.h */,
+				F52A0B9410153E2BB5177624CF61F526 /* MTA+Account.h */,
+				F05AEB722BBCCB02D27DED39A2AE67A3 /* MTAConfig.h */,
+				0D451AD038C0164DBDB3ED1CC2861A12 /* Frameworks */,
+				33764ECCA27ADE3DC8C4303A0B8C7EC8 /* Pod */,
+			);
+			name = LWMTA;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		FF43ED9462A787DB3C26942765A5D1DB /* Products */ = {
@@ -144,13 +130,24 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		CF8CC8BED03EA43CD5F0E0A4E487AC6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		6CD668FFACC3B72E114B5BEF4D56C2A9 /* Pods-LWMTA */ = {
+		FDE5AC56F90A6B1DA32B4D9CF2472FEE /* Pods-LWMTA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5E17986EA31CE01E777A663317FBA1C /* Build configuration list for PBXNativeTarget "Pods-LWMTA" */;
+			buildConfigurationList = EDB5722323ADE69FB4A40F61C4A084FE /* Build configuration list for PBXNativeTarget "Pods-LWMTA" */;
 			buildPhases = (
-				4BF3BCEEBB27FD90708A1400AEBF0F2F /* Sources */,
-				E9B9C9F9AF4EC4CA8DF139FEB9D2E544 /* Frameworks */,
+				CF8CC8BED03EA43CD5F0E0A4E487AC6B /* Headers */,
+				8A70A8AAC4440538CDAB7411F6B9268E /* Sources */,
+				1235E61CCD4BA40E2114DC3D475B0015 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,46 +179,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CD668FFACC3B72E114B5BEF4D56C2A9 /* Pods-LWMTA */,
+				FDE5AC56F90A6B1DA32B4D9CF2472FEE /* Pods-LWMTA */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4BF3BCEEBB27FD90708A1400AEBF0F2F /* Sources */ = {
+		8A70A8AAC4440538CDAB7411F6B9268E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9812B5D6CA5FF95137D1864C21DBAB8 /* Pods-LWMTA-dummy.m in Sources */,
+				7F69B662408480676E2BAA746B89F374 /* Pods-LWMTA-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5FC998E39F165AE24BC658DF1AD68965 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F120DA73A0F9A46AAA0948CEB3DEFA7 /* Pods-LWMTA.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B9AC12289CD8978D51F9223B457E7DCA /* Release */ = {
+		5DE734ABD787801184C181C385D15EA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,13 +248,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		DEC9569BB66BEC125260336D8D9273BA /* Debug */ = {
+		63A5799275076365B0038BA7C69732E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,16 +312,41 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		FC39777F984F292B867251BDC72CEC38 /* Debug */ = {
+		86440370CEC63EB9C5D30429874AA5C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F120DA73A0F9A46AAA0948CEB3DEFA7 /* Pods-LWMTA.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA700DC86BE11EF69A49FEAA8EF4756E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 49B5E81A706EB4A62355AAA27CA47445 /* Pods-LWMTA.debug.xcconfig */;
 			buildSettings = {
@@ -369,17 +373,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEC9569BB66BEC125260336D8D9273BA /* Debug */,
-				B9AC12289CD8978D51F9223B457E7DCA /* Release */,
+				63A5799275076365B0038BA7C69732E0 /* Debug */,
+				5DE734ABD787801184C181C385D15EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5E17986EA31CE01E777A663317FBA1C /* Build configuration list for PBXNativeTarget "Pods-LWMTA" */ = {
+		EDB5722323ADE69FB4A40F61C4A084FE /* Build configuration list for PBXNativeTarget "Pods-LWMTA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC39777F984F292B867251BDC72CEC38 /* Debug */,
-				5FC998E39F165AE24BC658DF1AD68965 /* Release */,
+				EA700DC86BE11EF69A49FEAA8EF4756E /* Debug */,
+				86440370CEC63EB9C5D30429874AA5C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

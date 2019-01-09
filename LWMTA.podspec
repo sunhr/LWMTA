@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LWMTA"
-  s.version      = "2.4.0"
+  s.version      = "2.5.1"
   s.summary      = "MTA"
   s.description  = <<-DESC
   Updated MTA for CocoaPods

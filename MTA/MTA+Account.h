@@ -101,13 +101,6 @@ typedef NS_ENUM(NSInteger, MTAAccountStatus) {
 
 @end
 
-/**
- 账号绑定信息
- key 中的 NSNumber 为 MTAAccountTypeExt 中的枚举值
- value 中的 NSString 为账号id
- */
-//typedef NSMutableDictionary<NSNumber *, NSString *> MTATypeBindInfo;
-
 @interface MTA(MTAAccountExt)
 
 /**
@@ -116,14 +109,6 @@ typedef NS_ENUM(NSInteger, MTAAccountStatus) {
  @param infos 账号信息
  */
 + (void)reportAccountExt:(NSArray<MTAAccountInfo *> *)infos;
-
-
-/**
- 绑定主账号与其他账号
-
- @param bindInfo 需要绑定的账号
- */
-//+ (void)bindAccount:(MTATypeBindInfo *)bindInfo;
 
 @end
 
